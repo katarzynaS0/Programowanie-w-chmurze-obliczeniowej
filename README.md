@@ -2,14 +2,14 @@
 
 ## Zadanie 3 
 Należy podać polecenia niezbędne do:
-zbudowania opracowanego obrazu kontenera
+a)zbudowania opracowanego obrazu kontenera
 >$ docker build . -t <nazwa>
-uruchomienia kontenera na podstawie zbudowanego obrazu
+b)uruchomienia kontenera na podstawie zbudowanego obrazu
 >$ docker run -p 49160:8080 -d <nazwa>
-sposobu uzyskania informacji, które wygenerował serwer w trakcie uruchamiana kontenera 
+c)sposobu uzyskania informacji, które wygenerował serwer w trakcie uruchamiana kontenera 
 (patrz: punkt 1a)
 >$ docker logs <ID>
- sprawdzenia ile warstw posiada zbudowany obraz
+d)sprawdzenia ile warstw posiada zbudowany obraz
 >$ docker history <nazwa>
  
 ## Zadanie 4
