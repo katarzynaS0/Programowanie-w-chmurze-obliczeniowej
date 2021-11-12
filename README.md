@@ -1,14 +1,15 @@
 # Programowanie w chmurze obliczeniowej-SPRAWOZDANIE 1 
 
 ## Zadanie 3 
-
->$ docker build . -t (nazwa)
->$ docker run -p 49160:8080 -d (nazwa)
-c)sposobu uzyskania informacji, które wygenerował serwer w trakcie uruchamiana kontenera 
+a. zbudowania opracowanego obrazu kontenera
+> $ docker build . -t (nazwa)
+b. uruchomienia kontenera na podstawie zbudowanego obrazu
+> $ docker run -p 49160:8080 -d (nazwa)
+c. sposobu uzyskania informacji, które wygenerował serwer w trakcie uruchamiana kontenera 
 (patrz: punkt 1a)
->$ docker logs (ID)
-d)sprawdzenia ile warstw posiada zbudowany obraz
->$ docker history (nazwa)
+> $ docker logs (ID)
+d. sprawdzenia ile warstw posiada zbudowany obraz
+> $ docker history (nazwa)
  
 ## Zadanie 4
 Proszę odpowiedzieć na pytanie czy a jeśli tak to w jaki sposób można
