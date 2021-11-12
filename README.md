@@ -1,7 +1,7 @@
 # Programowanie w chmurze obliczeniowej-SPRAWOZDANIE 1 
 
 ## Zadanie 3 
-* Należy podać polecenia niezbędne do:
+Należy podać polecenia niezbędne do:
 a. zbudowania opracowanego obrazu kontenera,
 >$ docker build . -t <nazwa>
 b. uruchomienia kontenera na podstawie zbudowanego obrazu,
@@ -13,7 +13,7 @@ d. sprawdzenia, ile warstw posiada zbudowany obraz.
 >$ docker history <nazwa>
  
 ## Zadanie 4
-*Proszę odpowiedzieć na pytanie czy a jeśli tak to w jaki sposób można
+Proszę odpowiedzieć na pytanie czy a jeśli tak to w jaki sposób można
 zbudować obraz wykorzystując bezpośrednia link do Dockerfile umieszczonego na GitHub
 oraz jak przenieść stworzony obraz na swoje konto na DockerHub.
 
