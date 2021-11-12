@@ -1,6 +1,7 @@
 # Programowanie w chmurze obliczeniowej-SPRAWOZDANIE 1 
 
 ## Zadanie 3 
+Należy podać polecenia niezbędne do:
 a. zbudowania opracowanego obrazu kontenera
 > $ docker build . -t (nazwa)
 b. uruchomienia kontenera na podstawie zbudowanego obrazu
